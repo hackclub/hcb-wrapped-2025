@@ -118,7 +118,7 @@ export default {
         id: 1,
         totalMoneySpent: 0.0,
         spendingByDate: {
-            "01-01-2024": 0
+            "01-01-2025": 0
         },
         ranking: 0.05,
         averageReceiptUploadTime: 55, // in seconds
@@ -148,7 +148,7 @@ export default {
             spent: 0,
             raised: 0,
             spendingByDate: {
-                "01-01-2024": 0
+                "01-01-2025": 0
             },
             spendingByLocation: {
                 "United States of America - West Hollywood - 90069": 0,
@@ -191,7 +191,7 @@ export default {
             "Covenant Hills Christian Campground": 1
         },
         spendingByDate: {
-            "01-01-2024": 0
+            "01-01-2025": 0
         }
     }
 } satisfies WrappedData;
@@ -463,7 +463,7 @@ export function generateSpendingByDate(max: number): SpendingByDate {
     const spendingByDate: SpendingByDate = {};
     let totalSpent = 0;
     for (let i = 0; i < daysInYear; i++) {
-        const date = new Date(2024, 0, i + 1);
+        const date = new Date(2025, 0, i + 1);
         if (i === daysInYear - 1) {
             spendingByDate[
                 date.toISOString().slice(0, 10).replaceAll("/", "-") as date

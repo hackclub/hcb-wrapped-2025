@@ -124,13 +124,13 @@ export default function HcbWrapped({ data }: { data: WrappedData }) {
           >
             <h2 style={{ fontSize: "2.3rem" }}>🏦 🎁 🎉</h2>
             <h1 style={{ fontSize: "2.7rem" }}>
-              Welcome to <br /> Wrapped 2024
+              Welcome to <br /> Wrapped 2025
             </h1>
             <div>
               This year's HCB Wrapped is open-sourced and built by 10+ Hack
               Clubbers; check it out{" "}
               <a
-                href="https://github.com/hackclub/hcb-wrapped-2024"
+                href="https://github.com/hackclub/hcb-wrapped-2025"
                 target="_blank"
               >
                 on Github

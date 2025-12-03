@@ -16,7 +16,7 @@ export default function Home() {
             color: $.primary
           })}
         >
-          HCB Wrapped 2024
+          HCB Wrapped 2025
         </h1>
         <p {...$.headline()}>🎁 Your year on HCB, wrapped</p>
       </Heading>
@@ -40,10 +40,10 @@ export default function Home() {
         </h3>
         <button
           onClick={() => {
-            window.open("/run", "HCB Wrapped 2024");
+            window.open("/run", "HCB Wrapped 2025");
           }}
         >
-          Run HCB Wrapped 2024 →
+          Run HCB Wrapped 2025 →
         </button>
         <button
           onClick={() => {
