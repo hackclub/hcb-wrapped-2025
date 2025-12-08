@@ -32,8 +32,8 @@ export default function Reimbursements({ data }: SlideProps) {
 }
 
 Reimbursements.config = {
-bgImage: `url("https://cloud-lsz94pth8-hack-club-bot.vercel.app/0frame_2.svg")`,
-cache: () => ["https://cloud-lsz94pth8-hack-club-bot.vercel.app/0frame_2.svg"],
+bgImage: `url("https://hc-cdn.hel1.your-objectstorage.com/s/v3/9b9c70dcf125e2a933093579ed91ebc5cdcc8005_frame_3__1_.svg")`,
+cache: () => ["https://hc-cdn.hel1.your-objectstorage.com/s/v3/9b9c70dcf125e2a933093579ed91ebc5cdcc8005_frame_3__1_.svg"],
   duration: 10_000,
   skipSlide: (data) =>
     data.individual.reimbursementAmount == 0

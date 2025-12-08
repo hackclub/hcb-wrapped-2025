@@ -39,9 +39,19 @@ const additionalData: {
     color: $.red,
     name: "FIRST Robotics"
   },
-  REVROBOTICS: {
+  BT: {
     image: "https://cloud-161bscnw9-hack-club-bot.vercel.app/0image.png",
-    color: $.orange
+    color: $.orange,
+    name: "REV Robotics"
+  },
+  AIRBNB: {
+    image: "https://logos-world.net/wp-content/uploads/2020/07/Airbnb-Emblem.png",
+    color: $.airbnb
+  },
+  UBER: {
+    image: "https://1000logos.net/wp-content/uploads/2021/04/Uber-logo.png",
+    color: "#000000",
+    name: "Uber"
   },
   goBILDA: {
     image: "https://cloud-m4ohq90s7-hack-club-bot.vercel.app/0image_1__4_.png",

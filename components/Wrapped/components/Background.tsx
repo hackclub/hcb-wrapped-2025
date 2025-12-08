@@ -15,18 +15,18 @@ export default function Background({
     background: url("${
       desktopPatternImage
         ? desktopPatternImage
-        : "https://cloud-ppjsbwxdm-hack-club-bot.vercel.app/0secretfreeze.svg"
+        : "https://cloud-6h53svh6x-hack-club-bot.vercel.app/0group_5.png"
     }"), linear-gradient(rgba(5,0,0,0.10), rgba(5,0,0,0.10));
-    background-repeat: space;
-    background-size: 80px 80px;
     color: white;
     z-index: 5;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
     position: absolute;
     top: 0px;
-    width: 800vw;
-    height: 800vh;
+    width: 100vw;
+    height: 100vh;
     left: 0px;
-    transform: rotate(20deg) translate(-50%, -25%);
   `;
   return (
     <style

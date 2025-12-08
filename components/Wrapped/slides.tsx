@@ -11,6 +11,7 @@ import Start from "./slides/Start";
 import Spender from "./slides/Spender";
 import WordCloud from "./slides/WordCloud";
 import Receipts from "./slides/Receipts";
+import Announcements from "./slides/Announcements";
 import Hometown from "./slides/HomeTown";
 import Ending from "./slides/Ending";
 import HCBSection from "./slides/HCBSection";
@@ -19,6 +20,7 @@ import type { SlideProps, SlideOptions } from "./internals/slidesHelper";
 import CardGrants from "./slides/CardGrants";
 import Reimbursements from "./slides/Reimbursements";
 import BestFriend from "./slides/BestFriend";
+import Wise from "./slides/Wise";
 
 function deterministicShuffle(seed: string, array: any[]) {
   let intSeed = 0;
@@ -71,9 +73,9 @@ export function generateSlidesOrder(data: WrappedData) {
             />
           );
         }
-        const color = deterministicShuffle(org, [$.blue, $.red, $.green, $.purple])[0];
+        const color = deterministicShuffle(org, [$.blue, $.red, $.green, $.purple, $.orange])[0];
         OrgSlide.config = {
-          bgPattern: `linear-gradient(130deg, ${color}11 40%, ${color}33 70%, ${color}bb 100%)`,
+          bgPattern: `linear-gradient(130deg, ${color}22 40%, ${color}49 70%, ${color}cc 100%)`,
           duration: 10000,
           cache: (data) => [getOrgImage(data.organizations[org])]
         } satisfies SlideOptions;
@@ -96,8 +98,10 @@ export function generateSlidesOrder(data: WrappedData) {
     Start,
     Spender,
     ByDate,
+    Wise,
     CardGrants,
     Receipts,
+    Announcements,
     Reimbursements,
     BestFriend,
     WordCloud,

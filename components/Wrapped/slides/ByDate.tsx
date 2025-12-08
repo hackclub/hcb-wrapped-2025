@@ -142,7 +142,7 @@ export function Content({
             day: "numeric",
             month: "long"
           })}{" "}
-          skyrocketed to {USDollarNoCents.format(max / 100)}
+          reached {USDollarNoCents.format(max / 100)}
         </p>
       )}
     </>
@@ -161,7 +161,7 @@ export default function ByDate({ data }: SlideProps) {
       <h1
         {...$.title({
           marginBottom: $.s4,
-          marginTop: "-32px",
+          marginTop: "30px",
           fontSize: "2.8em",
           fontWeight: 500,
           color: $.white

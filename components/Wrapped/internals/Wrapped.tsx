@@ -127,8 +127,7 @@ export default function HcbWrapped({ data }: { data: WrappedData }) {
               Welcome to <br /> Wrapped 2025
             </h1>
             <div>
-              This year's HCB Wrapped is open-sourced and built by 10+ Hack
-              Clubbers; check it out{" "}
+              Your HCB year in review is now available! It's also open source{" "}
               <a
                 href="https://github.com/hackclub/hcb-wrapped-2025"
                 target="_blank"
@@ -177,7 +176,7 @@ export const css = `
     }
 
     body {
-        background: var(--red);
+        background: var(--blue);
     }
 
     div.wrapper {
@@ -732,7 +731,7 @@ button {
     padding-top: 8px;
     padding-bottom: 8px;
     color: var(--theme-ui-colors-white, #ffffff);
-    background-color: var(--theme-ui-colors-primary, #ec3750);
+    background-color: var(--theme-ui-colors-secondary, #338eda);
     border: 0;
     font-size: var(--font-2);
 }
