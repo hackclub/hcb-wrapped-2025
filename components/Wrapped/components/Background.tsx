@@ -15,7 +15,7 @@ export default function Background({
     background: url("${
       desktopPatternImage
         ? desktopPatternImage
-        : "https://cloud-6h53svh6x-hack-club-bot.vercel.app/0group_5.png"
+        : "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f5e47199e3fbe284_group_5__3_.png"
     }"), linear-gradient(rgba(5,0,0,0.10), rgba(5,0,0,0.10));
     color: white;
     z-index: 5;

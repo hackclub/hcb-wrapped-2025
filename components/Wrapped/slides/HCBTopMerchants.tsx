@@ -35,12 +35,12 @@ const additionalData: {
     name: "Sticker Mule"
   },
   FIRST: {
-    image: "https://cloud-6ik9jo5u6-hack-club-bot.vercel.app/0image.png",
+    image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f7a165f4bbb29e4a_image__167_.png",
     color: $.red,
     name: "FIRST Robotics"
   },
   BT: {
-    image: "https://cloud-161bscnw9-hack-club-bot.vercel.app/0image.png",
+    image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/be3e0c394c25ae1e_image__168_.png",
     color: $.orange,
     name: "REV Robotics"
   },
@@ -59,9 +59,14 @@ const additionalData: {
     name: "goBILDA"
   },
   AndyMark: {
-    image: "https://cloud-ci8kpp8oi-hack-club-bot.vercel.app/0image_2__5_.png",
+    image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/06fb2587f964812a_image_2__10_.png",
     color: "#2E3192",
     name: "AndyMark"
+  },
+  JLCPCB:{
+    image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/82d19e9f1f527974_jlcpcb.png",
+    color: "#2B8CED",
+    name: "JLCPCB"
   }
 };
 

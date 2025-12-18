@@ -72,10 +72,10 @@ export function useTimedValue<T>(
 export default function Start({ data, isPaused }: SlideProps) {
   const snowflake1 = document.createElement("img");
   snowflake1.src =
-    "https://cloud-ftrouxwcr-hack-club-bot.vercel.app/0group_1.png";
+    "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9010ca6554b6a5f8_group_1__18_.png";
   const snowflake2 = document.createElement("img");
   snowflake2.src =
-    "https://cloud-ftrouxwcr-hack-club-bot.vercel.app/1group_2.png";
+    "https://hc-cdn.hel1.your-objectstorage.com/s/v3/4cae33853ac85b21_group_2__11_.png";
   const images = [snowflake1, snowflake2];
 
   const snowflakeSpeed = useTimedValue(

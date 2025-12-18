@@ -62,6 +62,8 @@ export interface IndividualData {
     cardGrantAmount: number;
     reimbursementCount: number;
     reimbursementAmount: number;
+    wiseTransferCount: number;
+    wiseTransferAmount: number;
     bestFriend: {
         name: string;
         profile_picture: string;

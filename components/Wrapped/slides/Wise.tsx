@@ -2,6 +2,7 @@ import $ from "../utils/theme";
 import type { SlideProps, SlideOptions } from "../internals/slidesHelper";
 import Background from "../components/Background";
 import React from "react";
+import CountUp from "react-countup";
 
 export function formatDuration(seconds: number) {
   const minute = 60;
@@ -80,7 +81,7 @@ export default function Wise({ data }: SlideProps) {
           fontSize: "1.5em",
         })}
       >
-        You sent <span {...$({ color: "#E2F7D5" })}>$182</span> internationally!
+        You sent <span {...$({ color: "#E2F7D5" })}>$<CountUp end={Math.abs(data.individual.wiseTransferAmount / 100)} /></span> internationally with <span {...$({ color: "#E2F7D5" })}><CountUp end={Math.abs(data.individual.wiseTransferCount)} /></span>&nbsp;Wise&nbsp;transfers!
       </h2>
       <div {...$({ textAlign: "center", width: "100%", marginBottom: "-80px" })}>
         <img src="https://wise.com/web-art/assets/illustrations/satellite-platform-large@1x.webp" alt="Wise Illustration" {...$({
@@ -100,5 +101,7 @@ export default function Wise({ data }: SlideProps) {
 
 Wise.config = {
   bg: "#083400",
-  duration: 10_000
+  duration: 10_000,
+  skipSlide: (data) =>
+  data.individual.wiseTransferCount + data.individual.wiseTransferAmount == 0
 } satisfies SlideOptions;

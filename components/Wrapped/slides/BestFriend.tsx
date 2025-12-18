@@ -50,7 +50,7 @@ export default function BestFriend({ data, isPaused }: SlideProps) {
 
 BestFriend.config = {
   bgImage: `linear-gradient(rgba(51, 142, 218) 0%, rgba(38, 102, 154) 75%)`,
-  cache: () => ["https://cloud-lsz94pth8-hack-club-bot.vercel.app/0frame_2.svg"],
+  cache: () => ["https://hc-cdn.hel1.your-objectstorage.com/s/v3/4fec4e3825a7744f_frame_2__2_.svg"],
   duration: 10_000,
   skipSlide: (data) => data.individual.bestFriend == null
 } satisfies SlideOptions;

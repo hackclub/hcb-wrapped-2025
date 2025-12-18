@@ -59,7 +59,7 @@ export default function HcbWrapped({ data }: { data: WrappedData }) {
     if (window?.__wrapped_audio) return;
     // @ts-ignore
     window.__wrapped_audio = new Audio(
-      "https://cloud-auzh6ioja-hack-club-bot.vercel.app/041857.mp3"
+      "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b60eaac55e3b6223_41857__1_.mp3"
     );
 
     try {
@@ -69,7 +69,7 @@ export default function HcbWrapped({ data }: { data: WrappedData }) {
         album: "HCB Wrapped",
         artwork: [
           {
-            src: "https://cloud-h35rphr9i-hack-club-bot.vercel.app/0bank_wrapped.jpg"
+            src: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/81848a741a0c3c53_bank_wrapped__1_.jpg"
           }
         ]
       });

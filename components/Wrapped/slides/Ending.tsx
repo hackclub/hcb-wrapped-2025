@@ -60,9 +60,9 @@ export default function Ending({ data }: SlideProps) {
 }
 
 Ending.config = {
-  bgImage: `linear-gradient(rgba(37,36,41,0.5) 0%, rgba(37,36,41,0.85) 75%), url(https://cloud-h0fxb51kz-hack-club-bot.vercel.app/0image_2__6_.png)`,
+  bgImage: `linear-gradient(rgba(37,36,41,0.5) 0%, rgba(37,36,41,0.85) 75%), url(https://hc-cdn.hel1.your-objectstorage.com/s/v3/15e698979c3f92d7_image_2__11_.png)`,
   cache: (data) => [
-    "https://cloud-h0fxb51kz-hack-club-bot.vercel.app/0image_2__6_.png"
+    "https://hc-cdn.hel1.your-objectstorage.com/s/v3/15e698979c3f92d7_image_2__11_.png"
   ],
   duration: 3000
 } satisfies SlideOptions;

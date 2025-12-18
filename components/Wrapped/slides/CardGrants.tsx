@@ -32,7 +32,7 @@ export default function CardGrants({ data }: SlideProps) {
 }
 
 CardGrants.config = {
-bgImage: `url("https://cloud-3d7o2aqrb-hack-club-bot.vercel.app/0frame_1__15_.svg")`,
+bgImage: `url("https://hc-cdn.hel1.your-objectstorage.com/s/v3/063ae8f00df1ac16_frame_1__20_.svg")`,
   duration: 10_000,
   skipSlide: (data) =>
     data.individual.cardGrantAmount == 0
