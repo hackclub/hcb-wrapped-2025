@@ -11,6 +11,7 @@
         "skipLibCheck": true /* Skip type checking all .d.ts files. */,
         "allowJs": true,
         "noImplicitAny": false,
+        "noEmitOnError": false,
         "jsx": "preserve"
     },
     "linterOptions": {

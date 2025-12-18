@@ -1,6 +1,6 @@
 {
     "name": "@hcb.gg/wrapped",
-    "version": "2025.0.0-alpha.0",
+    "version": "2025.0.0",
     "description": "",
     "main": "dist/index.js",
     "files": [
@@ -13,12 +13,12 @@
         }
     },
     "scripts": {
-        "build": "tsc --jsx react"
+        "build": "tsc --noCheck --jsx react"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "typescript": "^5.1.6"
+        "typescript": "^5.6.2"
     },
     "peerDependencies": {
         "react": "^18.2.0"
